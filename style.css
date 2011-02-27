@@ -1,0 +1,26 @@
+
+/* Tag Selectors - impacts whatever tag is coded */
+body {background:#006400;}
+/*li = list item -- html*/
+li {color:purple;}
+/* nested tag selector */
+ol li {color:#f5f5f5;}
+/* ID Selector - impacts anything with an ID = "Matt" */
+#Matt {color:#ff69b4;}
+/* Class Selector - impacts any class named "Nic" */
+.Nic {text-decoration:underline;}
+/* attribute selector */
+[href="index.html"]{background:white;}
+/*any html tag that has something = something can be selected like what's below, but you shouldn't do it for
+ id or class, but anything else is game.
+ [id="Matt"]{background:#ffc0cb;}*/
+tr .Sam {background:white;}
+/* each li is block level */
+.horizontal_list li {display:inline;}
+.right_list {float:right;}
+.left_list {float:left;}
+.clear {clear:both;}
+/*position:absolute means the object is no longer part of the contect stream; you are setting the x/y coordinates*/
+/*ie. top, left, right, bottomw*/
+#message {border:1px solid #add8e6; text-align:center; background:#add8e6; width:50%; margin:auto; height:50%;
+          position:absolute; top:25%; left:25%;}
